@@ -1,6 +1,6 @@
 name: BugReport lab4_1.4
 about: File a bug report
-title: ": "
+title: "Feature: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
