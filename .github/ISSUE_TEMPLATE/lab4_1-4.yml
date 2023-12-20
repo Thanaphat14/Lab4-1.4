@@ -1,5 +1,5 @@
 name: BugReport 
-about: File a bug report
+description: File a bug report
 title: "Feature: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
@@ -45,5 +45,6 @@ body:
       description: Explain what do you want
       render: shell
       placeholder: Feature details!
+
         
   
