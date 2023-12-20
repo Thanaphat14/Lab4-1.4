@@ -14,7 +14,7 @@ body:
       placeholder: ex. Sertha Taweeattana.com
     validations:
       required: false
-    - type: markdown
+  - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
@@ -24,7 +24,7 @@ body:
       label: Type of request?
       description: Select the type of your request
       multiple: true
-       options:
+      options:
         - New Feature
       default: 0
     validations:
@@ -35,7 +35,9 @@ body:
       label: What is the OS which you want to suggest?
       multiple: true
       options:
-        - selections
+        - Windows
+        - macOS
+        - Linux
   - type: textarea
     id: details
     attributes:
